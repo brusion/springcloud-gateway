@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gate-client" />
+        <module name="gate-eureka" />
+        <module name="gate-gateway" />
+        <module name="gate-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gate-client" target="1.8" />
+      <module name="gate-demo" target="1.8" />
+      <module name="gate-eureka" target="1.8" />
+      <module name="gate-gateway" target="1.8" />
+      <module name="gate-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+server:
+  port: 5502
+spring:
+  application:
+    name: provider-client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:5761/eureka/
+  instance:
+    prefer-ip-address: true
